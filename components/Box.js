@@ -13,7 +13,7 @@ export default function Box({children , style}) {
     const styles = StyleSheet.create({
         box:{
             backgroundColor : "#fff",
-            padding:5,
+            padding:20,
         },
         text : {
             textAlign:"center",
