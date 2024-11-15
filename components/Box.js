@@ -14,11 +14,14 @@ export default function Box({children , style}) {
         box:{
             backgroundColor : "#fff",
             padding:20,
+            width:100,
+            height:100,
         },
         text : {
             textAlign:"center",
             fontSize: 24,
-            fontWeight:"condensedBold"
+            fontWeight:"condensedBold",
+            color :"white"
         },
     });
 
